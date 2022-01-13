@@ -4,6 +4,6 @@ from . import views
 
 urlpatterns = [
     path('cyber',views.python,name="cyber" ),
-     path('home',views.home,name="home" ),
+     path('',views.home,name="home" ),
 
 ]
